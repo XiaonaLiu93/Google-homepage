@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <title>Google</title>
-        <link href="styles/google-grid.css" rel="stylesheet">
+        <link href="styles/google-flexbox.css" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -20,10 +20,16 @@
             </nav>
             <div class="section">
                 <h1>
-                    <img src="images/google-logo.png">
+                    <img src="images/google-logo.png" alt="google logo">
                 </h1>
-                <form>
+                <form class="search">
                     <input>
+                    <div class="search__icon">
+                        <img src="images/google-icon.png" alt="google icon">
+                        <div class="search__icon__alt">
+                            <p>Search by voice</p>
+                        </div>
+                    </div>
                 </form>
                 <div>
                     <button>Google Search</button>

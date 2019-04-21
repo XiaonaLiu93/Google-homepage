@@ -44,11 +44,38 @@ a:hover {
     grid-template-rows: repeat(3, auto);
     justify-items: center;
     align-content: center;
+    transform: translateY(-10%);
 }
 
-.section img {
+.section > h1 > img {
     width: 272px;
     height: 92px;
+}
+
+.search {
+    position: relative;
+}
+
+.search__icon > img {
+    width: 1.5rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0.75rem;
+    right: 1rem;
+}
+
+.search__icon__alt {
+    background: #4f4f4f;
+    color: #ffffff;
+    font-size: 13px;
+    width: 6.5rem;
+    height: 1.8rem;
+    line-height: 0.2rem;
+    text-align: center;
+    position: absolute;
+    top: 3.2rem;
+    right: 0;
+    transform: translateX(20%);
 }
 
 .section input {
